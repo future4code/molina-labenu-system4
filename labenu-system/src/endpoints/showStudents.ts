@@ -13,3 +13,4 @@ export default async function showStudents(req: Request, res: Response) {
     res.status(errorCode).send({ message: error.message })
   }
 }
+
